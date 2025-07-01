@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>xaxank | Developer Portfolio</title>
+  <title>Shashaank Krishnatray | Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -27,7 +27,7 @@
       color: #94a3b8;
     }
     main {
-      max-width: 800px;
+      max-width: 900px;
       margin: 2rem auto;
       padding: 0 1rem;
     }
@@ -39,21 +39,21 @@
       padding-bottom: 0.5rem;
       color: #38bdf8;
     }
-    .project {
+    .project, .experience {
       background: #1e293b;
       padding: 1rem;
       margin: 1rem 0;
       border-radius: 0.5rem;
       transition: transform 0.2s;
     }
-    .project:hover {
+    .project:hover, .experience:hover {
       transform: translateY(-5px);
     }
-    .project h3 {
+    .project h3, .experience h3 {
       margin-top: 0;
       color: #facc15;
     }
-    .project p {
+    .project p, .experience p {
       margin: 0.5rem 0;
     }
     a {
@@ -62,6 +62,9 @@
     }
     a:hover {
       text-decoration: underline;
+    }
+    ul {
+      padding-left: 1.2rem;
     }
     footer {
       text-align: center;
@@ -73,10 +76,12 @@
 </head>
 <body>
   <header>
-    <h1>xaxank</h1>
-    <p class="subtitle">Full-Stack Developer | Experimenting with Data, UI, and Systems</p>
+    <h1>Shashaank Krishnatray</h1>
+    <p class="subtitle">Full-Stack Engineer | Frontend Specialist | System Designer</p>
     <p>
-      <a href="https://github.com/xaxank" target="_blank">GitHub Profile</a>
+      <a href="https://github.com/xaxank" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/xaxank" target="_blank">LinkedIn</a> |
+      <a href="mailto:shashaank.krishnatray@gmail.com">Email Me</a>
     </p>
   </header>
 
@@ -84,8 +89,59 @@
     <section>
       <h2>About Me</h2>
       <p>
-        I'm a passionate developer exploring the world of frontend interfaces, data pipelines, and backend systems. I love experimenting with JavaScript, React, Go, and everything in between.
+        I'm a software engineer with experience designing and developing scalable, high-performance web applications across the full stack. I specialize in React, Angular, Node.js, and GraphQL, with a keen interest in system architecture, performance optimization, and creating impactful user experiences.
       </p>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> JavaScript, TypeScript, HTML, CSS, Python, C/C++</li>
+        <li><strong>Front-End:</strong> React.js, Angular, EmberJS, D3.js, jQuery, Knockout.js</li>
+        <li><strong>Back-End:</strong> Node.js (Express), Django, Flask</li>
+        <li><strong>Databases:</strong> MongoDB, PostgreSQL, Redis, Druid, Timeseries, MySQL</li>
+        <li><strong>Other:</strong> GraphQL, REST APIs, Tailwind CSS, Web Security</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+
+      <div class="experience">
+        <h3>Senior Software Engineer – Freshworks (Nov 2022 - Present)</h3>
+        <ul>
+          <li>Architect for revamping the Automation Engine for Freshchat, enhancing scalability and performance.</li>
+          <li>Designed features including telephony and email integrations.</li>
+          <li>Tech Stack: EmberJS</li>
+        </ul>
+      </div>
+
+      <div class="experience">
+        <h3>Senior Software Engineer – Airtel Africa (Feb 2021 - Nov 2022)</h3>
+        <ul>
+          <li>Led system design for Control Room, a configurable partner integration platform.</li>
+          <li>Developed web solution guidelines and mentored new engineers.</li>
+          <li>Tech Stack: Angular 11</li>
+        </ul>
+      </div>
+
+      <div class="experience">
+        <h3>Front-End Engineer – Zenatix (July 2018 - Feb 2021)</h3>
+        <ul>
+          <li>Architect for web and mobile solutions including the V2 Web Platform and IoT monitoring apps.</li>
+          <li>Built ETL pipelines, dashboards, and data visualization tools.</li>
+          <li>Tech Stack: ReactJS, GraphQL, Flutter, Django</li>
+        </ul>
+      </div>
+
+      <div class="experience">
+        <h3>Developer – Delhivery (Feb 2016 - June 2018)</h3>
+        <ul>
+          <li>Developed data visualization and geo-analytics tools such as Mapper and La Rekha.</li>
+          <li>Worked on optimization tools and internal analytics dashboards.</li>
+          <li>Tech Stack: AngularJS, Django, Flask, PostgreSQL</li>
+        </ul>
+      </div>
     </section>
 
     <section>
@@ -93,43 +149,48 @@
 
       <div class="project">
         <h3><a href="https://github.com/xaxank/viz-cafe" target="_blank">Viz-Cafe</a></h3>
-        <p>A modular data visualization suite for exploring datasets interactively. Built with flexibility and simplicity in mind.</p>
+        <p>Data visualization suite for intuitive dataset exploration.</p>
       </div>
 
       <div class="project">
         <h3><a href="https://github.com/xaxank/web-apps" target="_blank">Web Apps</a></h3>
-        <p>A collection of small, interactive web applications using vanilla JavaScript, HTML, and CSS.</p>
+        <p>Collection of small interactive web apps using vanilla JS, HTML, and CSS.</p>
       </div>
 
       <div class="project">
         <h3><a href="https://github.com/xaxank/bakery" target="_blank">Bakery</a></h3>
-        <p>Lightweight Go server for managing ELT pipelines and powering data visualizations.</p>
+        <p>Go-based backend for managing ELT pipelines and data visualizations.</p>
       </div>
 
       <div class="project">
         <h3><a href="https://github.com/xaxank/react-tree" target="_blank">React-Tree</a></h3>
-        <p>React component for visualizing hierarchical data structures with interactive trees.</p>
+        <p>React component to render and interact with hierarchical tree data.</p>
       </div>
 
       <div class="project">
         <h3><a href="https://github.com/xaxank/revire" target="_blank">Revire</a></h3>
-        <p>Angular-based project scaffold ideal for rapid frontend prototyping and experimentation.</p>
+        <p>Angular-based project scaffold for rapid UI prototyping.</p>
       </div>
 
       <div class="project">
         <h3><a href="https://github.com/xaxank/zox-4-zenatix" target="_blank">Zox for Zenatix</a></h3>
-        <p>Prototype UI for social media data input and (future) sentiment analysis.</p>
+        <p>Prototype UI for social media data input and sentiment analysis.</p>
       </div>
+    </section>
 
-      <div class="project">
-        <h3><a href="https://github.com/xaxank/java" target="_blank">Java Playground</a></h3>
-        <p>Sandbox for practicing Java fundamentals, algorithms, and small projects.</p>
-      </div>
+    <section>
+      <h2>Awards & Recognition</h2>
+      <ul>
+        <li>2023 – Craftsmanship Award for Automation Engine, Freshworks</li>
+        <li>2021 – Spot Award for Control Room, Airtel Africa</li>
+        <li>2017 – Kaizen Award for Continuous Improvements, Delhivery</li>
+        <li>2009 – Winner, Oracle ThinkQuest International Website Challenge</li>
+      </ul>
     </section>
   </main>
 
   <footer>
-    &copy; 2025 xaxank. Built with ❤️ and curiosity.
+    &copy; 2025 Shashaank Krishnatray. Built with ❤️ using HTML and CSS.
   </footer>
 </body>
 </html>
